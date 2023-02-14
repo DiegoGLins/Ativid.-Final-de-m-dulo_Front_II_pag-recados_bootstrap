@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Css/register.css" />
+  </head>
+  <body>
+    <div class="container-fluid mt-5 py-3">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-5 py-5 col-md-4">
+          <img
+            class="img-fluid rounded-5"
+            src="../images/controle-de-tarefas.png"
+            alt=""
+          />
+        </div>
+        <div class="col-12 mt-5 col-md-4 text-center justify-content-center">
+          <form
+            id="registerForm"
+            class="bg-black py-5 border-2 border-dark-subtle rounded-5"
+          >
+            <h2 id="title">CRIAR CONTA</h2>
+            <fieldset>
+              <div class="form-floating mb-3 mx-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Digite seu nome de usuário"
+                  required
+                />
+                <label for="floatingInput">Crie um nome de usuário</label>
+              </div>
+              <div class="form-floating mb-3 mx-5">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Digite sua senha"
+                  required
+                />
+                <label for="floatingPassword">Crie uma senha</label>
+              </div>
+              <div class="form-floating mx-5">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPasswordRepeat"
+                  placeholder="Digite sua senha"
+                  required
+                />
+                <label for="floatingPasswordRepeat"
+                  >Por favor repita a Senha</label
+                >
+              </div>
+              <div class="px-5">
+                <button
+                  type="submit"
+                  class="btn btn-success container-fluid mt-4"
+                >
+                  CRIAR CONTA AGORA
+                </button>
+              </div>
+            </fieldset>
+
+            <div class="login">
+              <span>Já possui conta ?</span>
+              <a id="access-login" href="../Html/login.html">Fazer login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Js/register.js"></script>
+  </body>
+</html>

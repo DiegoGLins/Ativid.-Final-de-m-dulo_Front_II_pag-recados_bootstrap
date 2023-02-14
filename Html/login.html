@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de recados</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Css/login.css" />
+  </head>
+  <body>
+    <div class="container-fluid mt-5 py-3">
+      <div class="row justify-content-center">
+        <div class="col-12 mt-5 py-5 col-md-4">
+          <img
+            class="img-fluid rounded-5"
+            src="../images/controle-de-tarefas.png"
+            alt=""
+          />
+          <img id="vapor-aparecer" src="../images/vapor-cafe.png" alt="" />
+          <img id="vapor-aparecer2" src="../images/vapor-cafe.png" alt="" />
+        </div>
+        <div class="col-12 mt-5 col-md-4 text-center justify-content-center">
+          <form
+            id="loginForm"
+            class="bg-black py-5 border-2 border-dark-subtle rounded-5"
+          >
+            <h2 id="title">LISTA DE RECADOS</h2>
+            <p id="subtitle">Entrar no sistema de recados</p>
+            <fieldset>
+              <div class="form-floating mb-3 mx-5">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Digite seu nome de usuário"
+                  required
+                />
+                <label for="floatingInput">Usuário</label>
+              </div>
+              <div class="form-floating mx-5">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Digite sua senha"
+                  required
+                />
+                <label for="floatingPassword">Senha</label>
+              </div>
+            </fieldset>
+            <div class="px-5">
+              <button
+                type="submit"
+                class="btn btn-outline-success container-fluid mt-4"
+              >
+                ENTRAR
+              </button>
+            </div>
+            <div class="acount">
+              <a id="creat-acount" href="../Html/register.html"
+                ><strong>Criar conta</strong>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Js/login.js"></script>
+  </body>
+</html>

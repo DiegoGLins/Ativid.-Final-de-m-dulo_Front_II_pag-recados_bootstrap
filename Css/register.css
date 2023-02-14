@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: white;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+a :link,
+a :visited {
+  color: white;
+  text-decoration: none;
+}
+
+a :hover {
+transform: scale(1.1);
+}
+
+.login {
+  margin-top: 23px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #64eb37;
+}
+
+#access-login:hover {
+color:#f4a914;
+transform: scale(1.07);
+}
+
+#title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #64eb37;
+}
+
