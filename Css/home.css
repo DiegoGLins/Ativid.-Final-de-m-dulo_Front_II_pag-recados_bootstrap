@@ -1,3 +1,37 @@
+.style-delete{
+width: 75px;  
+margin: 4px;
+padding: 6px;  
+background-color: #ffffff;
+border-radius: 8px;
+border: 2px solid #bd1010;
+color: black;
+font-size: 14px;
+}
+
+.style-delete:hover{
+  background-color: #bd1010;
+  border: 2px solid #bd1010;
+  color: black;
+  }
+
+.style-edit {
+width: 75px;  
+margin: 4px;
+padding: 6px;  
+background-color: #898b8e;
+border-radius: 8px;
+border: 2px solid black;
+color: black;
+font-size: 14px;
+}
+
+.style-edit:hover {
+  background-color: #1fd828;
+  border: 2px solid #1fd828;
+  color: black;
+  }
+
 table {
   border-collapse: collapse;
   width: 100%;

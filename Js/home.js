@@ -67,6 +67,8 @@ function tableHtml() {
 
           botaoDeletar.setAttribute("onClick", `deletarRecado(${index})`);
           botaoEditar.setAttribute("onClick", `editarRecado(${index})`);
+          botaoDeletar.setAttribute("class", "style-delete");
+          botaoEditar.setAttribute("class", "style-edit");
 
           td1.innerHTML = index + 1;
           td2.innerHTML = value.descricao;
