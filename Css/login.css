@@ -40,6 +40,70 @@
   color: rgb(19, 198, 9);
 }
 
+#grao1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+  top: 152px;
+  left: 510px;
+  animation: surgirGr1 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
+
+#grao2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+  top: 152px;
+  left: 530px;
+  animation: surgirGr2 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
+
+#grao3 {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  z-index: 0;
+  top: 152px;
+  left: 455px;
+  animation: surgirGr3 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
+
+#grao4 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 0;
+  top: 148px;
+  left: 540px;
+  animation: surgirGr4 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
+
+#grao5 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  z-index: 0;
+  top: 150px;
+  left: 525px;
+  animation: surgirGr5 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 1s;
+}
 
 #vapor-aparecer {
   position: absolute;
@@ -158,4 +222,180 @@
     top: 135px;
   }
 
+}
+
+/* //GRÃO 1 */
+@keyframes surgirGr1 {
+  0%{
+    z-index: 1;
+    transform: rotate(50deg);
+    transform: rotate(45deg);
+    top: 155px;
+    left: 510px;
+  }
+
+  20%{
+    transform: rotate(35deg);
+    transform: rotate(60deg);
+    top: 170px;
+    left: 530px;
+  }
+  
+  40%{
+    transform: rotate(90deg);
+    top: 190px;
+    left: 510px;
+  }
+
+  70%{
+    top: 210px;
+    left: 500px;
+  }
+
+  100%{
+    z-index: 1;
+    top: 230px;
+    left: 505px;
+  }
+}
+
+/* //GRÃO 2 */
+@keyframes surgirGr2 {
+  0%{
+    z-index: 1;
+    transform: rotate(30deg);
+    transform: rotate(25deg);
+    top: 155px;
+    left: 520px;
+  }
+
+  20%{
+    transform: rotate(35deg);
+    transform: rotate(30deg);
+    top: 160px;
+    left: 525px;
+  }
+  
+  40%{
+    transform: rotate(20deg);
+    top: 170px;
+    left: 535px;
+  }
+
+  70%{
+    top: 180px;
+    left: 530px;
+  }
+
+  100%{
+    z-index: 1;
+    top: 185px;
+    left: 525px;
+  }
+}
+
+
+/* //GRÃO 3 */
+@keyframes surgirGr3 {
+  0%{
+    z-index: 1;
+    transform: rotate(10deg);
+    transform: rotate(15deg);
+    top: 155px;
+    left: 460px;
+  }
+
+  20%{
+    transform: rotate(20deg);
+    transform: rotate(15deg);
+    top: 160px;
+    left: 475px;
+  }
+  
+  40%{
+    transform: rotate(20deg);
+    top: 170px;
+    left: 480px;
+  }
+
+  70%{
+    top: 180px;
+    left: 490px;
+  }
+
+  100%{
+    z-index: 1;
+    top: 185px;
+    left: 500px;
+  }
+}
+
+/* //GRÃO 4 */
+@keyframes surgirGr4 {
+  0%{
+    z-index: 1;
+    transform: rotate(5deg);
+    transform: rotate(10deg);
+    top: 165px;
+    left: 540px;
+  }
+
+  20%{
+    transform: rotate(15deg);
+    transform: rotate(10deg);
+    top: 170px;
+    left: 535px;
+  }
+  
+  40%{
+    transform: rotate(20deg);
+    top: 180px;
+    left: 530px;
+  }
+
+  70%{
+    top: 190px;
+    left: 538px;
+  }
+
+  100%{
+    z-index: 1;
+    top: 195px;
+    left: 545px;
+  }
+}
+
+/* //GRÃO 5 */
+@keyframes surgirGr5 {
+  0%{
+    z-index: 1;
+    transform: rotate(50deg);
+    transform: rotate(45deg);
+    top: 175px;
+    left: 515px;
+  }
+
+  20%{
+    transform: rotate(40deg);
+    transform: rotate(45deg);
+    top: 185px;
+    left: 520px;
+  }
+  
+  40%{
+    transform: rotate(50deg);
+    top: 190px;
+    left: 525px;
+  }
+
+  70%{
+    top: 198px;
+    left: 520px;
+  }
+
+  100%{
+    z-index: 1;
+    top: 205px;
+    left: 530px;
+  }
 }
