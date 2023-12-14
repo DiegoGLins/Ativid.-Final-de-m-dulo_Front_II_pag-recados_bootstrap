@@ -4,6 +4,10 @@
   border: 0;
 }
 
+body {
+  background-image: url("images/controle-de-tarefas.png");
+}
+
 #creat-acount {
   text-decoration: none;
   color: black;
@@ -31,7 +35,7 @@
 #title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: rgb(19, 198, 9);
+  color: rgb(19, 198, 9);
 }
 
 #subtitle {
@@ -49,7 +53,7 @@
   left: 510px;
   animation: surgirGr1 2s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
@@ -62,7 +66,7 @@
   left: 530px;
   animation: surgirGr2 2s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
@@ -75,7 +79,7 @@
   left: 455px;
   animation: surgirGr3 2s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
@@ -88,7 +92,7 @@
   left: 540px;
   animation: surgirGr4 2s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
@@ -101,7 +105,7 @@
   left: 525px;
   animation: surgirGr5 2s;
   animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
 }
 
@@ -110,8 +114,8 @@
   width: 90px;
   height: 100px;
   z-index: 999;
-  top: 132px;
-  left: 610px;
+  top: 156px;
+  left: 778px;
   animation: surgir 4s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
@@ -125,7 +129,7 @@
   height: 70px;
   z-index: 999;
   top: 165px;
-  left: 642px;
+  left: 776px;
   animation: surgir2 4s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
@@ -141,41 +145,54 @@
     transform: rotate(0deg)
   }
 
-  20% {
+  15% {
     opacity: 0.3;
-    transform: rotate(-10deg);
-    top: 128px;
-    left: 605px;
+    transform: rotate(-5deg);
+    top: 150px;
+    left: 778px;
   }
 
-  40% {
-    opacity: 0.7;
-    transform: rotate(-5deg);
-    top: 120px;
+  30% {
+    opacity: 0.6;
+    transform: rotate(5deg);
+    top: 142px;
+    left: 778px;
+  }
+
+  50% {
+    opacity: 0.3;
+    transform: rotate(10deg);
+    top: 130px;
   }
 
   60% {
-    opacity: 1;
+    opacity: 0.7;
+    transform: rotate(5deg);
+    top: 125px;
+  }
+
+  70% {
+    opacity: 0.4;
     transform: rotate(0deg);
-    top: 115px;
+    top: 120px;
   }
 
   80% {
     opacity: 0.7;
-    transform: rotate(5deg);
+    transform: rotate(-5deg);
     top: 110px;
   }
 
   90% {
     opacity: 0.3;
-    transform: rotate(10deg);
-    top: 105px;
+    transform: rotate(0deg);
+    top: 100px;
   }
 
   100% {
     opacity: 0.1;
     transform: rotate(5deg);
-    top: 99px;
+    top: 95px;
   }
 }
 
@@ -183,50 +200,51 @@
 @keyframes surgir2 {
   0% {
     opacity: 0;
-    transform: rotate(30deg)
+    transform: rotate(0deg)
   }
 
   20% {
     opacity: 0.3;
-    transform: rotate(25deg);
-    top: 155px;
+    transform: rotate(-10deg);
+    top: 170px;
+    left: 778px;
   }
 
   40% {
     opacity: 0.7;
-    transform: rotate(30deg);
-    top: 150px;
+    transform: rotate(-25deg);
+    top: 160px;
   }
 
   60% {
     opacity: 1;
-    transform: rotate(25deg);
-    top: 145px;
+    transform: rotate(-20deg);
+    top: 155px;
   }
 
   80% {
     opacity: 0.7;
-    transform: rotate(20deg);
+    transform: rotate(-18deg);
     top: 140px;
   }
 
   90% {
     opacity: 0.3;
-    transform: rotate(18deg);
+    transform: rotate(-15deg);
     top: 135px;
   }
 
   100% {
     opacity: 0.1;
-    transform: rotate(15deg);
-    top: 135px;
+    transform: rotate(-10deg);
+    top: 125px;
   }
 
 }
 
 /* //GRÃO 1 */
 @keyframes surgirGr1 {
-  0%{
+  0% {
     z-index: 1;
     transform: rotate(50deg);
     transform: rotate(45deg);
@@ -234,25 +252,25 @@
     left: 510px;
   }
 
-  20%{
+  20% {
     transform: rotate(35deg);
     transform: rotate(60deg);
     top: 170px;
     left: 530px;
   }
-  
-  40%{
+
+  40% {
     transform: rotate(90deg);
     top: 190px;
     left: 510px;
   }
 
-  70%{
+  70% {
     top: 210px;
     left: 500px;
   }
 
-  100%{
+  100% {
     z-index: 1;
     top: 230px;
     left: 505px;
@@ -261,7 +279,7 @@
 
 /* //GRÃO 2 */
 @keyframes surgirGr2 {
-  0%{
+  0% {
     z-index: 1;
     transform: rotate(30deg);
     transform: rotate(25deg);
@@ -269,25 +287,25 @@
     left: 520px;
   }
 
-  20%{
+  20% {
     transform: rotate(35deg);
     transform: rotate(30deg);
     top: 160px;
     left: 525px;
   }
-  
-  40%{
+
+  40% {
     transform: rotate(20deg);
     top: 170px;
     left: 535px;
   }
 
-  70%{
+  70% {
     top: 180px;
     left: 530px;
   }
 
-  100%{
+  100% {
     z-index: 1;
     top: 185px;
     left: 525px;
@@ -297,7 +315,7 @@
 
 /* //GRÃO 3 */
 @keyframes surgirGr3 {
-  0%{
+  0% {
     z-index: 1;
     transform: rotate(10deg);
     transform: rotate(15deg);
@@ -305,25 +323,25 @@
     left: 460px;
   }
 
-  20%{
+  20% {
     transform: rotate(20deg);
     transform: rotate(15deg);
     top: 160px;
     left: 475px;
   }
-  
-  40%{
+
+  40% {
     transform: rotate(20deg);
     top: 170px;
     left: 480px;
   }
 
-  70%{
+  70% {
     top: 180px;
     left: 490px;
   }
 
-  100%{
+  100% {
     z-index: 1;
     top: 185px;
     left: 500px;
@@ -332,7 +350,7 @@
 
 /* //GRÃO 4 */
 @keyframes surgirGr4 {
-  0%{
+  0% {
     z-index: 1;
     transform: rotate(5deg);
     transform: rotate(10deg);
@@ -340,25 +358,25 @@
     left: 540px;
   }
 
-  20%{
+  20% {
     transform: rotate(15deg);
     transform: rotate(10deg);
     top: 170px;
     left: 535px;
   }
-  
-  40%{
+
+  40% {
     transform: rotate(20deg);
     top: 180px;
     left: 530px;
   }
 
-  70%{
+  70% {
     top: 190px;
     left: 538px;
   }
 
-  100%{
+  100% {
     z-index: 1;
     top: 195px;
     left: 545px;
@@ -367,7 +385,7 @@
 
 /* //GRÃO 5 */
 @keyframes surgirGr5 {
-  0%{
+  0% {
     z-index: 1;
     transform: rotate(50deg);
     transform: rotate(45deg);
@@ -375,25 +393,25 @@
     left: 515px;
   }
 
-  20%{
+  20% {
     transform: rotate(40deg);
     transform: rotate(45deg);
     top: 185px;
     left: 520px;
   }
-  
-  40%{
+
+  40% {
     transform: rotate(50deg);
     top: 190px;
     left: 525px;
   }
 
-  70%{
+  70% {
     top: 198px;
     left: 520px;
   }
 
-  100%{
+  100% {
     z-index: 1;
     top: 205px;
     left: 530px;
