@@ -57,7 +57,6 @@ function tableHtml() {
           const botaoDeletar = document.createElement("button");
           const botaoEditar = document.createElement("button");
          
-
           tr.appendChild(td1);
           tr.appendChild(td2);
           tr.appendChild(td3);
@@ -99,7 +98,7 @@ function deletarRecado(index) {
   tableHtml();
 }
 
-//Desloga o ususario da aplicação
+//Desloga o usuario da aplicação
 function logout () {
   sessionStorage.removeItem("usuarioLogado")
   window.location.href="login.html";
